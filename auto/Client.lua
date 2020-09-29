@@ -17,6 +17,8 @@ tool.Activated:Connect(function()
 		
 	wait(.15) until firing == false
 end)
+--[[
+ONLY USE THIS FOR ANIMATION
 
 tool.Equipped:Connect(function()
 	events.EquipAnimation:FireServer()
@@ -25,6 +27,7 @@ end)
 tool.Unequipped:Connect(function()
 	events.UnequipAnimation:FireServer()
 end)
+]]--
 
 tool.Deactivated:Connect(function()
 	firing = false
