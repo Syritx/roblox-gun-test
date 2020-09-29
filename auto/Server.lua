@@ -48,7 +48,7 @@ events.EquipAnimation.OnServerEvent:Connect(function(player)
 	isEquipped = true
 	
 	local equipAnim = Instance.new("Animation")
-	equipAnim.AnimationId = "rbxassetid://5584703468"
+	equipAnim.AnimationId = "rbxassetid://5584703468" -- ANIMATION ID HERE
 	
 	local playerAnim = hum:LoadAnimation(equipAnim)
 	
